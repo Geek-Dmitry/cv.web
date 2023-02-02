@@ -1,40 +1,50 @@
 ﻿<!DOCTYPE html>
+<!--suppress SpellCheckingInspection -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Dzmitry Salata CV</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/_layout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mohave&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap" 
+          rel="stylesheet">
 </head>
 <body>
 <header class="header">
-    <div class="container container-header">
-        <h1 class="header-title">
-            Dzmitry <br>
-            <span class="header-title-surname">Salata</span>
-        </h1>
-        <img class="header-img" src="assets/img/Photo.png" alt="Dzmitry photo">
-        <p class="header-description">date of birth: 23.08.1990</p>
+    <div class="container-header">
+        <img class="header-img" src="assets/img/Photo.png" alt="Dzmitry photo">  
+        <h1 class="header-title header-text">Dmitry Salata</h1>
+        <p class="header-description header-text">23.08.1990</p>
         <nav class="header-navigation">
             <ul class="header-navigation-list">
-                <li class="header-navigation-item">Profile</li>
-                <li class="header-navigation-item">Skills</li>
-                <li class="header-navigation-item">Code examples</li>
-                <li class="header-navigation-item">Projects</li>
-                <li class="header-navigation-item">Work experience</li>
-                <li class="header-navigation-item">Contacts</li>
+                <li class="header-navigation-item">
+                    <a href="" class="header-navigation-link active-nav-link header-text">Home</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="" class="header-navigation-link header-text">Skills</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="" class="header-navigation-link header-text">Projects</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="" class="header-navigation-link header-text">Work experience</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="" class="header-navigation-link header-text">Contacts</a>
+                </li>
             </ul>
         </nav>
+        <section class="contacts">
+            <span class="icon github"></span>
+            <span class="icon gmail"></span>
+            <span class="icon codewars"></span>
+        </section>
     </div>
 </header>
 <div class="container">
-    <main role="main" class="pb-3">
+    <main role="main" class="">
         @RenderBody()
     </main>
 </div>

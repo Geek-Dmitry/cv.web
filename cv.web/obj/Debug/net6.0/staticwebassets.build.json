@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W+ClS9dnCIUHk4D66NMZNX0ncQ2/W/rWXnMYbX9C0lY=",
+  "Hash": "q4rbFuowV3N0Y8R7hJs6WKHBEbQueGGrQJd3lNZusaY=",
   "Source": "cv.web",
   "BasePath": "_content/cv.web",
   "Mode": "Default",
@@ -17,40 +17,6 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/obj/Debug/net6.0/scopedcss/bundle/cv.web.styles.css",
-      "SourceId": "cv.web",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/obj/Debug/net6.0/scopedcss/bundle/",
-      "BasePath": "_content/cv.web",
-      "RelativePath": "cv.web.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/dzmitry/RiderProjects/cv.web/cv.web/obj/Debug/net6.0/scopedcss/bundle/cv.web.styles.css"
-    },
-    {
-      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/obj/Debug/net6.0/scopedcss/projectbundle/cv.web.bundle.scp.css",
-      "SourceId": "cv.web",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/obj/Debug/net6.0/scopedcss/projectbundle/",
-      "BasePath": "_content/cv.web",
-      "RelativePath": "cv.web.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/dzmitry/RiderProjects/cv.web/cv.web/obj/Debug/net6.0/scopedcss/projectbundle/cv.web.bundle.scp.css"
-    },
-    {
       "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/assets/img/Photo.png",
       "SourceId": "cv.web",
       "SourceType": "Discovered",
@@ -66,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/img/Photo.png"
+    },
+    {
+      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/css/_Layout.css",
+      "SourceId": "cv.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/",
+      "BasePath": "_content/cv.web",
+      "RelativePath": "css/_Layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/_Layout.css"
     },
     {
       "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/css/normalize.css",
