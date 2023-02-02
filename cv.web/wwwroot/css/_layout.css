@@ -45,8 +45,10 @@ a {
 }
 
 .container-header {
+    height: 85vh;
+    display: flex;
     flex-direction: column;
-    flex: 1 1 20%;
+    justify-content: space-between;
     padding: 40px 30px 40px 40px;
 }
 
@@ -83,7 +85,7 @@ a {
     text-align: left;
     list-style: none;
 }
- 
+
 .header-navigation-link {
     position: relative;
     display: inline-block;
@@ -91,9 +93,29 @@ a {
     font-weight: 700;
 }
 
-.container {
+.contacts {
+    margin-top: 100px;
+}
+
+.contacts-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    list-style: none;
+}
+
+.contacts-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.icon {
+    max-width: 24px;
+    max-height: 24px;
+    transition: all .3s ease-in-out;
+}
+
+.icon:hover {
+    fill: #9013FE;
+}
+
+.container {
     flex: 1 1 80%;
 }
