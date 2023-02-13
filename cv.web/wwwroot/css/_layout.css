@@ -39,7 +39,6 @@ a {
     height: 100vh;
     z-index: 1;
     overflow-x: hidden;
-    padding: 40px 30px 40px 40px;
     border-right: solid 1px #ececec;
     background-color: #ffffff;
 }
@@ -93,10 +92,6 @@ a {
     font-weight: 700;
 }
 
-.contacts {
-    margin-top: 100px;
-}
-
 .contacts-list {
     display: flex;
     list-style: none;
@@ -107,15 +102,30 @@ a {
 }
 
 .icon {
-    max-width: 24px;
-    max-height: 24px;
-    transition: all .3s ease-in-out;
+    max-width: 20px; 
+    height: auto;
+    transition: all .2s ease-in-out;
+}
+
+.github 
+{
+    background-image: url("../assets/img/github.svg");
+}
+
+.gmail
+{
+    background-image: url("../assets/img/gmail.svg");
+}
+
+.codewars
+{
+    background-image: url("../assets/img/codewars.svg");
 }
 
 .icon:hover {
     fill: #9013FE;
 }
 
-.container {
-    flex: 1 1 80%;
+.render-body {
+    margin-left: 450px;
 }

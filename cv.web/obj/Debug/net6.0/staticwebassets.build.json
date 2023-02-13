@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AwBp1fqea6Z2EY4a1OwKWCtn8l6opssPSA41ZtOI3JE=",
+  "Hash": "1StcVdcY17J9sVYH7gtszlhrxUKZ+C3wUzUjx91etYw=",
   "Source": "cv.web",
   "BasePath": "_content/cv.web",
   "Mode": "Default",
@@ -16,6 +16,57 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/assets/img/codewars.svg",
+      "SourceId": "cv.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/",
+      "BasePath": "_content/cv.web",
+      "RelativePath": "assets/img/codewars.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/codewars.svg"
+    },
+    {
+      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/assets/img/github.svg",
+      "SourceId": "cv.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/",
+      "BasePath": "_content/cv.web",
+      "RelativePath": "assets/img/github.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/github.svg"
+    },
+    {
+      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/assets/img/gmail.svg",
+      "SourceId": "cv.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/",
+      "BasePath": "_content/cv.web",
+      "RelativePath": "assets/img/gmail.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/gmail.svg"
+    },
     {
       "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/assets/img/Photo.png",
       "SourceId": "cv.web",
@@ -51,6 +102,23 @@
       "OriginalItemSpec": "wwwroot/css/_layout.css"
     },
     {
+      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/css/index.css",
+      "SourceId": "cv.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/",
+      "BasePath": "_content/cv.web",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css"
+    },
+    {
       "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/css/normalize.css",
       "SourceId": "cv.web",
       "SourceType": "Discovered",
@@ -66,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/normalize.css"
-    },
-    {
-      "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/css/style.css",
-      "SourceId": "cv.web",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/",
-      "BasePath": "_content/cv.web",
-      "RelativePath": "css/style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/style.css"
     },
     {
       "Identity": "/home/dzmitry/RiderProjects/cv.web/cv.web/wwwroot/favicon.ico",
