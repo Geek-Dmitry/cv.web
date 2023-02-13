@@ -80,7 +80,7 @@ a {
 }
 
 .header-navigation-item {
-    padding: 8px 0;
+    padding: 12px 0;
     text-align: left;
     list-style: none;
 }
@@ -91,6 +91,8 @@ a {
     font-size: 14px;
     font-weight: 700;
 }
+
+/*contacts*/
 
 .contacts-list {
     display: flex;
@@ -126,6 +128,15 @@ a {
     fill: #9013FE;
 }
 
+/*render-body*/
+
+main {
+    flex:1 1 100%;
+}
+
 .render-body {
-    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 280px;
 }
